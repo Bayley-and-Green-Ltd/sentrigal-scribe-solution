@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { ArrowRight, Code, Iterate, Brain } from "lucide-react";
+import { ArrowRight, Code, Brain } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Index = () => {
@@ -81,7 +81,7 @@ const Index = () => {
                 description: "Transform ideas into working prototypes within hours"
               },
               {
-                icon: <Iterate className="h-12 w-12 mb-4 text-blue-600" />,
+                icon: <ArrowRight className="h-12 w-12 mb-4 text-blue-600" />,
                 title: "Iterative Development",
                 description: "Continuous improvement through real-time feedback"
               },
